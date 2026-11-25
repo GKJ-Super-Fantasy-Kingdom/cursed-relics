@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>0.2.9</Version>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\Super Fantasy Kingdom</GameDir>
+    <ProfileDir Condition="'$(ProfileDir)' == ''">$(MSBuildProjectDirectory)\.analysis\profile</ProfileDir>
+    <ManagedDir>$(GameDir)\Super Fantasy Kingdom_Data\Managed</ManagedDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <EmbeddedResource Include="art/*.png"><LogicalName>%(Filename).png</LogicalName></EmbeddedResource>
+    <EmbeddedResource Include="art/frames/*.png"><LogicalName>frame.%(Filename).png</LogicalName></EmbeddedResource>
+    <Reference Include="0Harmony;BepInEx">
+      <HintPath>$(ProfileDir)\BepInEx\core\%(Identity).dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp;Newtonsoft.Json;UnityEngine;UnityEngine.CoreModule;UnityEngine.ImageConversionModule;UnityEngine.UI;UnityEngine.UIModule;Unity.InputSystem;Unity.Localization;Unity.TextMeshPro;UnityEngine.TextRenderingModule">
+      <HintPath>$(ManagedDir)\%(Identity).dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

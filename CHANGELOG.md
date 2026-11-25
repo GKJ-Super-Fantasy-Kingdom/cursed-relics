@@ -1,3 +1,7 @@
+# 0.2.10
+
+Refresh the Thunderstore package logo with a plum crown and crimson garnet seal.
+
 # 0.2.9
 
 Redraw the ten relic icons on a 16 × 16 pixel grid with the same one-pixel dark contour treatment as Cursed Equipment.

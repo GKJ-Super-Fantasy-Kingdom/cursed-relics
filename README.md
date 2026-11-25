@@ -20,7 +20,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Pauper's Crown
 
-![Pauper's Crown relic card showing a gold crown with a red jewel, the Gift, and the red Curse.](docs/screenshots/0.2.9/paupers-crown.png)
+![Pauper's Crown relic card showing a gold crown with a red jewel, the Gift, and the red Curse.](docs/screenshots/0.2.11/paupers-crown.png)
 
 **Gift**  At dusk, 5 coins or fewer grant +25% Power.
 
@@ -28,7 +28,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Bell of the Last Watch
 
-![Bell of the Last Watch relic card showing a cracked brass bell, the Gift, and the red Curse.](docs/screenshots/0.2.9/bell-of-the-last-watch.png)
+![Bell of the Last Watch relic card showing a cracked brass bell, the Gift, and the red Curse.](docs/screenshots/0.2.11/bell-of-the-last-watch.png)
 
 **Gift**  First wall hit grants +40% Power for 12s.
 
@@ -36,7 +36,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Cinder Gospel
 
-![Cinder Gospel relic card showing a purple spellbook with an orange flame, the Gift, and the red Curse.](docs/screenshots/0.2.9/cinder-gospel.png)
+![Cinder Gospel relic card showing a purple spellbook with an orange flame, the Gift, and the red Curse.](docs/screenshots/0.2.11/cinder-gospel.png)
 
 **Gift**  Your Burns last twice as long.
 
@@ -44,7 +44,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Hourglass of Ash
 
-![Hourglass of Ash relic card showing a gold hourglass with turquoise glass, the Gift, and the red Curse.](docs/screenshots/0.2.9/hourglass-of-ash.png)
+![Hourglass of Ash relic card showing a gold hourglass with turquoise glass, the Gift, and the red Curse.](docs/screenshots/0.2.11/hourglass-of-ash.png)
 
 **Gift**  +35% Power from dusk to midnight.
 
@@ -52,7 +52,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Glass Crown
 
-![Glass Crown relic card showing a turquoise glass crown, the Gift, and the red Curse.](docs/screenshots/0.2.9/glass-crown.png)
+![Glass Crown relic card showing a turquoise glass crown, the Gift, and the red Curse.](docs/screenshots/0.2.11/glass-crown.png)
 
 **Gift**  +30% Power at night.
 
@@ -60,7 +60,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Hollow Bulwark
 
-![Hollow Bulwark relic card showing a hollow silver shield with blue trim, the Gift, and the red Curse.](docs/screenshots/0.2.9/hollow-bulwark.png)
+![Hollow Bulwark relic card showing a hollow silver shield with blue trim, the Gift, and the red Curse.](docs/screenshots/0.2.11/hollow-bulwark.png)
 
 **Gift**  +50% Shield capacity at night.
 
@@ -68,7 +68,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Ferryman's Ledger
 
-![Ferryman's Ledger relic card showing a purple ledger with a gold seal, the Gift, and the red Curse.](docs/screenshots/0.2.9/ferrymans-ledger.png)
+![Ferryman's Ledger relic card showing a purple ledger with a gold seal, the Gift, and the red Curse.](docs/screenshots/0.2.11/ferrymans-ledger.png)
 
 **Gift**  The first ally to fall each night earns 3 coins.
 
@@ -76,7 +76,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Vulture's Covenant
 
-![Vulture's Covenant relic card showing a vulture in profile, the Gift, and the red Curse.](docs/screenshots/0.2.9/vultures-covenant.png)
+![Vulture's Covenant relic card showing a vulture in profile, the Gift, and the red Curse.](docs/screenshots/0.2.11/vultures-covenant.png)
 
 **Gift**  Hits deal +35% damage below 25% enemy HP.
 
@@ -84,7 +84,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Gilded Rampart
 
-![Gilded Rampart relic card showing a gold crenellated wall, the Gift, and the red Curse.](docs/screenshots/0.2.9/gilded-rampart.png)
+![Gilded Rampart relic card showing a gold crenellated wall, the Gift, and the red Curse.](docs/screenshots/0.2.11/gilded-rampart.png)
 
 **Gift**  +25% wall health capacity at night.
 
@@ -92,7 +92,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Red Mercy
 
-![Red Mercy relic card showing a red potion bottle with a pale cross, the Gift, and the red Curse.](docs/screenshots/0.2.9/red-mercy.png)
+![Red Mercy relic card showing a red potion bottle with a pale cross, the Gift, and the red Curse.](docs/screenshots/0.2.11/red-mercy.png)
 
 **Gift**  Units receive 30% more HP healing at night.
 

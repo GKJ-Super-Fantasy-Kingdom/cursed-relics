@@ -1,3 +1,7 @@
+# 0.2.11
+
+Update the artwork for all ten relic sprites with plum shadows and crimson curse marks. Refresh the ten card screenshots.
+
 # 0.2.10
 
 Refresh the Thunderstore package logo with a plum crown and crimson garnet seal.

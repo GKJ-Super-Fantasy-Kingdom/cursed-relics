@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace CursedRelics
 {
-    [BepInPlugin("gkj.cursedrelics", "Cursed Relics", "0.2.11")]
+    [BepInPlugin("gkj.cursedrelics", "Cursed Relics", "0.2.12")]
     [BepInDependency("sfk.weeklycontracts", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("gkj.holdtheline", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin

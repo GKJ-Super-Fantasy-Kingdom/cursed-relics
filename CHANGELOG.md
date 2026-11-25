@@ -1,3 +1,7 @@
+# 0.2.12
+
+Clarify the mod’s description and compatibility for players.
+
 # 0.2.11
 
 Update the artwork for all ten relic sprites with plum shadows and crimson curse marks. Refresh the ten card screenshots.
@@ -52,4 +56,4 @@ Refresh the native unit card at each Power change and use singular coin text at 
 
 # 0.1.0
 
-Initial local playtest of Pauper’s Crown, Bell of the Last Watch and Cinder Gospel.
+Initial lineup: Pauper’s Crown, Bell of the Last Watch, and Cinder Gospel.

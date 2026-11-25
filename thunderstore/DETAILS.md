@@ -1,10 +1,10 @@
 # Cursed Relics
 
-Ten cursed relics join Super Fantasy Kingdom’s native reward cards. Each offers a run-wide Gift and a red Curse.
+Ten cursed relics can appear in eligible rewards. Each gives your kingdom a run-wide benefit and a drawback.
 
 ## Features
 
-- Ten relics with original pixel-art icons, a plum-and-crimson frame, and native card focus.
+- A cursed choice can take one slot in an eligible reward. Check its Gift and Curse before you pick.
 - The ten effects cover unit Power, wall capacity, Burn, Shields and healing. Active Power and wall capacity modifiers combine multiplicatively.
 - Native Continue restores owned relic IDs. An unclaimed native chest can reopen with the same eligible row. A deliberate reroll replaces that row.
 
@@ -100,18 +100,18 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ## Compatibility
 
-- Tested on Super Fantasy Kingdom **0.8.068** with BepInEx 5 at 1× and 1.5× UI scale using mouse, keyboard, and virtual controller input.
-- [Weekly Contracts](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/WeeklyContracts/) can offer one cursed relic when it commits an eligible relic reward. [Amaya Without Cooldown](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/AmayaWithoutCooldown/) keeps Amaya’s ordinary stock, and [Relic Loadout Journal](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/RelicLoadoutJournal/) shows cursed relic names, icons, and effects.
-- [Hold the Line](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/HoldTheLine/) 0.2.3 keeps its paid relic wager ordinary by default. Enable `AllowPaidWager` to allow a cursed option there. Wall capacity changes preserve the wager. A hit that removes wall HP counts as damage.
-- [Nights of Terror](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/NightsOfTerror/) 0.1.3 can add a midnight reinforcement wave. [Cursed Equipment](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/CursedEquipment/) adds separate cursed gear through the Blacksmith. Both mods are optional.
+- Works with Super Fantasy Kingdom **0.8.068** and the other [GKJ mods](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/).
+- [Cursed Equipment](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/CursedEquipment/) adds separate gear effects for individual wearers. [Relic Loadout Journal](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/RelicLoadoutJournal/) can show the cursed relics you finished a run with.
+- [Weekly Contracts](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/WeeklyContracts/) can include a cursed choice in an eligible relic reward. [Amaya Without Cooldown](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/AmayaWithoutCooldown/) keeps Amaya’s ordinary shop stock. [More Relics](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/MoreRelics/) can add its own eligible choices alongside the cursed pool.
+- [Hold the Line](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/HoldTheLine/) keeps its paid relic rewards ordinary by default. Enable `AllowPaidWager` for a chance of a cursed option. Wall-capacity changes preserve a wager. A hit that removes wall health counts as damage.
+- [Nights of Terror](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/NightsOfTerror/) can add a second wave within the same night. Keep Cursed Relics enabled when continuing a kingdom that owns its relics.
+- These community mods can share the same profile. [Achievement Enabler](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/AchievementEnabler/), [Bakery Uses Wheat](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/BakeryUsesWheat/), [More Relics](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/MoreRelics/), [Right Click Skip](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/RightClickSkip/), and [Tavern Food Priorities](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/TavernFoodPriorities/).
 
 ## Installation
 
 1. Choose **Install with App** on [Thunderstore](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/CursedRelics/) or install **CursedRelics** by **GKJ** from your Super Fantasy Kingdom profile.
 2. Allow the manager to install [BepInExPack](https://thunderstore.io/c/super-fantasy-kingdom/p/BepInEx/BepInExPack/) and [HideManagerGameObject Config](https://thunderstore.io/c/super-fantasy-kingdom/p/BepInEx/HideManagerGameObject_Config/).
 3. Start the game modded and load your kingdom. For manual installation, extract `plugins/CursedRelics.dll` into the profile's `BepInEx/plugins` directory.
-
-See the [contribution guide](https://raw.githubusercontent.com/GKJ-Super-Fantasy-Kingdom/cursed-relics/v0.2.11/CONTRIBUTING.md) for local builds and issue reports. The original mod code is released under the [MIT License](https://raw.githubusercontent.com/GKJ-Super-Fantasy-Kingdom/cursed-relics/v0.2.11/LICENSE). Super Fantasy Kingdom and its assets retain their respective ownership.
 
 ## Support
 

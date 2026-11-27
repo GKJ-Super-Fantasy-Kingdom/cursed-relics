@@ -17,11 +17,15 @@ namespace CursedRelics
         const string SigilName = "Cursed Relic Sigil";
         const string FieldName = "Cursed Relic Icon Field";
         const string BannerName = "Cursed Relic Banner";
+        const float IconScale = 1.125f;
+        const float TermsGap = 22f;
         static readonly Regex SignedPercent = new Regex(@"[+-][0-9]+%");
         static Sprite trim, sigil, iconField, ribbon;
 
         [HarmonyPostfix]
-        static void SetFrame(Relic __0, Image ___card, TextMeshProUGUI ___title, TextMeshProUGUI ___description)
+        static void SetFrame(Relic __0, Image ___card, Image ___icon, TextMeshProUGUI ___title,
+            TextMeshProUGUI ___description, Button ___button, Sprite ___spriteCardDefault,
+            Sprite ___spriteCardHighlight, Sprite ___spriteCardSelected)
         {
             if (!___card) return;
 
@@ -46,22 +50,27 @@ namespace CursedRelics
                 HideLayer(field, FieldName);
             }
             SetRibbon(banner, cursed);
-            SetDescriptionPadding(surface, ___description, cursed);
+            SetContentLayout(surface, ___icon ? ___icon.rectTransform : null, ___description, cursed);
+            if (___button)
+                RelicCardInteraction.SetUp(___button, ___card, ___spriteCardDefault,
+                    ___spriteCardHighlight, ___spriteCardSelected, cursed);
         }
 
-        static void SetDescriptionPadding(RectTransform face, TextMeshProUGUI description, bool cursed)
+        static void SetContentLayout(RectTransform face, RectTransform icon, TextMeshProUGUI description, bool cursed)
         {
             if (!description) return;
-            description.TryGetComponent<RelicDescriptionPadding>(out var padding);
+            description.TryGetComponent<RelicCardLayout>(out var layout);
             if (cursed)
             {
-                if (!padding) padding = description.gameObject.AddComponent<RelicDescriptionPadding>();
-                padding.Apply(face, description);
-                description.text = SignedPercent.Replace(description.text, "<nobr>$0</nobr>");
+                if (!layout) layout = description.gameObject.AddComponent<RelicCardLayout>();
+                layout.Apply(face, icon, description, IconScale, TermsGap);
+                var terms = description.text.Replace("Gift: ", "<b>Gift:</b> ")
+                    .Replace("Curse: ", "<b>Curse:</b> ");
+                description.text = SignedPercent.Replace(terms, "<nobr>$0</nobr>");
             }
-            else if (padding)
+            else if (layout)
             {
-                padding.Restore(description);
+                layout.Restore(icon, description);
             }
         }
 
@@ -130,26 +139,39 @@ namespace CursedRelics
         }
     }
 
-    internal sealed class RelicDescriptionPadding : MonoBehaviour
+    internal sealed class RelicCardLayout : MonoBehaviour
     {
-        Vector4 original;
+        Vector4 originalMargin;
+        Vector3 originalIconScale;
+        float originalParagraphSpacing;
         bool applied;
 
-        internal void Apply(RectTransform face, TextMeshProUGUI description)
+        internal void Apply(RectTransform face, RectTransform icon, TextMeshProUGUI description,
+            float iconScale, float termsGap)
         {
             if (applied) return;
-            original = description.margin;
+            originalMargin = description.margin;
+            originalParagraphSpacing = description.paragraphSpacing;
+            if (icon)
+            {
+                originalIconScale = icon.localScale;
+                icon.localScale = new Vector3(originalIconScale.x * iconScale,
+                    originalIconScale.y * iconScale, originalIconScale.z);
+            }
             // TextMeshPro margins are in the description's scaled local space.
             var units = description.rectTransform.InverseTransformVector(face.TransformVector(new Vector3(1f, 1f, 0f)));
             // The native description is two units right of the card center.
-            description.margin = original + new Vector4(8f * units.x, 2f * units.y, 12f * units.x, 6f * units.y);
+            description.margin = originalMargin + new Vector4(8f * units.x, 2f * units.y, 12f * units.x, 6f * units.y);
+            description.paragraphSpacing = originalParagraphSpacing + termsGap;
             applied = true;
         }
 
-        internal void Restore(TextMeshProUGUI description)
+        internal void Restore(RectTransform icon, TextMeshProUGUI description)
         {
             if (!applied) return;
-            description.margin = original;
+            if (icon) icon.localScale = originalIconScale;
+            description.margin = originalMargin;
+            description.paragraphSpacing = originalParagraphSpacing;
             applied = false;
         }
     }

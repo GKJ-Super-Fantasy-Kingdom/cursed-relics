@@ -1,6 +1,6 @@
 {
   "name": "CursedRelics",
-  "version_number": "0.2.12",
+  "version_number": "0.2.14",
   "website_url": "https://github.com/GKJ-Super-Fantasy-Kingdom/cursed-relics",
   "description": "Find ten relics that trade a run-wide benefit for a drawback. Set how often cursed choices appear in eligible rewards.",
   "dependencies": [

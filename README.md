@@ -16,11 +16,15 @@ Ten cursed relics join Super Fantasy Kingdom’s native reward cards. Each offer
 
 ## Screenshots
 
+![Human cursed relic picker at 1× showing the plum and crimson frame.](docs/screenshots/current/human-relics-1x.png)
+
+![Undead cursed relic picker at 1.5× with a cursed relic beside ordinary relics.](docs/screenshots/current/undead-relics-1p5x.png)
+
 All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Curse is also available as selectable text.
 
 ### Pauper's Crown
 
-![Pauper's Crown relic card showing a gold crown with a red jewel, the Gift, and the red Curse.](docs/screenshots/0.2.11/paupers-crown.png)
+![Pauper's Crown relic card showing a gold crown with a red jewel, the Gift, and the red Curse.](docs/screenshots/cards/paupers-crown.png)
 
 **Gift**  At dusk, 5 coins or fewer grant +25% Power.
 
@@ -28,7 +32,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Bell of the Last Watch
 
-![Bell of the Last Watch relic card showing a cracked brass bell, the Gift, and the red Curse.](docs/screenshots/0.2.11/bell-of-the-last-watch.png)
+![Bell of the Last Watch relic card showing a cracked brass bell, the Gift, and the red Curse.](docs/screenshots/cards/bell-of-the-last-watch.png)
 
 **Gift**  First wall hit grants +40% Power for 12s.
 
@@ -36,7 +40,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Cinder Gospel
 
-![Cinder Gospel relic card showing a purple spellbook with an orange flame, the Gift, and the red Curse.](docs/screenshots/0.2.11/cinder-gospel.png)
+![Cinder Gospel relic card showing a purple spellbook with an orange flame, the Gift, and the red Curse.](docs/screenshots/cards/cinder-gospel.png)
 
 **Gift**  Your Burns last twice as long.
 
@@ -44,7 +48,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Hourglass of Ash
 
-![Hourglass of Ash relic card showing a gold hourglass with turquoise glass, the Gift, and the red Curse.](docs/screenshots/0.2.11/hourglass-of-ash.png)
+![Hourglass of Ash relic card showing a gold hourglass with turquoise glass, the Gift, and the red Curse.](docs/screenshots/cards/hourglass-of-ash.png)
 
 **Gift**  +35% Power from dusk to midnight.
 
@@ -52,7 +56,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Glass Crown
 
-![Glass Crown relic card showing a turquoise glass crown, the Gift, and the red Curse.](docs/screenshots/0.2.11/glass-crown.png)
+![Glass Crown relic card showing a turquoise glass crown, the Gift, and the red Curse.](docs/screenshots/cards/glass-crown.png)
 
 **Gift**  +30% Power at night.
 
@@ -60,7 +64,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Hollow Bulwark
 
-![Hollow Bulwark relic card showing a hollow silver shield with blue trim, the Gift, and the red Curse.](docs/screenshots/0.2.11/hollow-bulwark.png)
+![Hollow Bulwark relic card showing a hollow silver shield with blue trim, the Gift, and the red Curse.](docs/screenshots/cards/hollow-bulwark.png)
 
 **Gift**  +50% Shield capacity at night.
 
@@ -68,7 +72,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Ferryman's Ledger
 
-![Ferryman's Ledger relic card showing a purple ledger with a gold seal, the Gift, and the red Curse.](docs/screenshots/0.2.11/ferrymans-ledger.png)
+![Ferryman's Ledger relic card showing a purple ledger with a gold seal, the Gift, and the red Curse.](docs/screenshots/cards/ferrymans-ledger.png)
 
 **Gift**  The first ally to fall each night earns 3 coins.
 
@@ -76,7 +80,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Vulture's Covenant
 
-![Vulture's Covenant relic card showing a vulture in profile, the Gift, and the red Curse.](docs/screenshots/0.2.11/vultures-covenant.png)
+![Vulture's Covenant relic card showing a vulture in profile, the Gift, and the red Curse.](docs/screenshots/cards/vultures-covenant.png)
 
 **Gift**  Hits deal +35% damage below 25% enemy HP.
 
@@ -84,7 +88,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Gilded Rampart
 
-![Gilded Rampart relic card showing a gold crenellated wall, the Gift, and the red Curse.](docs/screenshots/0.2.11/gilded-rampart.png)
+![Gilded Rampart relic card showing a gold crenellated wall, the Gift, and the red Curse.](docs/screenshots/cards/gilded-rampart.png)
 
 **Gift**  +25% wall health capacity at night.
 
@@ -92,7 +96,7 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ### Red Mercy
 
-![Red Mercy relic card showing a red potion bottle with a pale cross, the Gift, and the red Curse.](docs/screenshots/0.2.11/red-mercy.png)
+![Red Mercy relic card showing a red potion bottle with a pale cross, the Gift, and the red Curse.](docs/screenshots/cards/red-mercy.png)
 
 **Gift**  Units receive 30% more HP healing at night.
 
@@ -100,16 +104,22 @@ All ten relic rewards appear below at 1.5× UI scale. Each card’s Gift and Cur
 
 ## Compatibility
 
-- Tested on Super Fantasy Kingdom **0.8.068** with BepInEx 5 at 1× and 1.5× UI scale using mouse, keyboard, and virtual controller input.
-- [Weekly Contracts](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/WeeklyContracts/) can offer one cursed relic when it commits an eligible relic reward. [Amaya Without Cooldown](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/AmayaWithoutCooldown/) keeps Amaya’s ordinary stock, and [Relic Loadout Journal](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/RelicLoadoutJournal/) shows cursed relic names, icons, and effects.
-- [Hold the Line](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/HoldTheLine/) 0.2.3 keeps its paid relic wager ordinary by default. Enable `AllowPaidWager` to allow a cursed option there. Wall capacity changes preserve the wager. A hit that removes wall HP counts as damage.
-- [Nights of Terror](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/NightsOfTerror/) 0.1.3 can add a midnight reinforcement wave. [Cursed Equipment](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/CursedEquipment/) adds separate cursed gear through the Blacksmith. Both mods are optional.
+- Tested on Super Fantasy Kingdom **0.8.070** with the other [GKJ mods](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/).
+- [Cursed Equipment](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/CursedEquipment/) adds separate gear effects for individual wearers. [Relic Loadout Journal](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/RelicLoadoutJournal/) can show the cursed relics you finished a run with.
+- [Weekly Contracts](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/WeeklyContracts/) can include a cursed choice in an eligible relic reward. [Amaya Without Cooldown](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/AmayaWithoutCooldown/) keeps Amaya’s ordinary shop stock. [More Relics](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/MoreRelics/) can add its own eligible choices alongside the cursed pool.
+- [Hold the Line](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/HoldTheLine/) keeps its paid relic rewards ordinary by default. Enable `AllowPaidWager` for a chance of a cursed option. Wall-capacity changes preserve a wager. A hit that removes wall health counts as damage.
+- [Nights of Terror](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/NightsOfTerror/) can add a second wave within the same night. Keep Cursed Relics enabled when continuing a kingdom that owns its relics.
+- These community mods can share the same profile. [Achievement Enabler](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/AchievementEnabler/), [Bakery Uses Wheat](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/BakeryUsesWheat/), [More Relics](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/MoreRelics/), [Right Click Skip](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/RightClickSkip/), and [Tavern Food Priorities](https://thunderstore.io/c/super-fantasy-kingdom/p/ownlyme/TavernFoodPriorities/).
 
 ## Installation
 
 1. Choose **Install with App** on [Thunderstore](https://thunderstore.io/c/super-fantasy-kingdom/p/GKJ/CursedRelics/) or install **CursedRelics** by **GKJ** from your Super Fantasy Kingdom profile.
 2. Allow the manager to install [BepInExPack](https://thunderstore.io/c/super-fantasy-kingdom/p/BepInEx/BepInExPack/) and [HideManagerGameObject Config](https://thunderstore.io/c/super-fantasy-kingdom/p/BepInEx/HideManagerGameObject_Config/).
 3. Start the game modded and load your kingdom. For manual installation, extract `plugins/CursedRelics.dll` into the profile's `BepInEx/plugins` directory.
+
+## Development
+
+The 0.2.14 DLL passed focused mouse, keyboard, and virtual-controller checks in Human and Undead at 1× and 1.5× on game build 0.8.069. The same DLL was included in the 0.8.070 combined lineup and its fresh Continue checks in both kingdoms.
 
 See the [contribution guide](CONTRIBUTING.md) for local builds and issue reports. The original mod code is released under the [MIT License](LICENSE). Super Fantasy Kingdom and its assets retain their respective ownership.
 

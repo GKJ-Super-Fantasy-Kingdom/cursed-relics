@@ -1,3 +1,11 @@
+# 0.2.14
+
+Use the native white focus rim on actionable cursed relic cards during hover, focus, and press. Refresh the package icon and card gallery. Update the compatibility notes for Super Fantasy Kingdom 0.8.070.
+
+# 0.2.13
+
+Give cursed relic icons more prominence and separate Gift and Curse on the native cards.
+
 # 0.2.12
 
 Clarify the mod’s description and compatibility for players.
